@@ -17,13 +17,14 @@
             status = "okay";
             BAT1: battery {
                 compatible = "simple-battery";
+                voltage-min-design-microvolt = <3000000>;
+                voltage-max-design-microvolt = <4200000>;
                 constant-charge-current-max-microamp = <3000000>;
                 constant-charge-voltage-max-microvolt = <4200000>;
-                precharge-current-microamp = <123000>;
-                charge-term-current-microamp = <123000>;
+                precharge-current-microamp = <490000>;
                 charge-full-design-microamp-hours = <9800000>;
                 device-chemistry = "lithium-ion";
-                factory-internal-resistance-micro-ohms = <100000>;
+                factory-internal-resistance-micro-ohms = <14000>;
                 factory-internal-resistance-charging-micro-ohms = <400000>;  
               
                 /* this is an array of temperature in descending order, and 
