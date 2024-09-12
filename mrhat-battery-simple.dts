@@ -25,7 +25,7 @@
                 charge-full-design-microamp-hours = <9800000>;
                 device-chemistry = "lithium-ion";
                 factory-internal-resistance-micro-ohms = <14000>;
-                factory-internal-resistance-charging-micro-ohms = <400000>;  
+                factory-internal-resistance-charging-micro-ohms = <100000>;  
               
                 /* this is an array of temperature in descending order, and 
                 * as the number of  ocv-capacity-table-X tables corresponds to
