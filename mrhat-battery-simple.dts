@@ -17,11 +17,11 @@
             status = "okay";
             BAT1: battery {
                 compatible = "simple-battery";
-                constant-charge-current-max-microamp = <1749000>;
+                constant-charge-current-max-microamp = <3000000>;
                 constant-charge-voltage-max-microvolt = <4200000>;
-                precharge-current-microamp = <133000>;
-                charge-term-current-microamp = <133000>;
-                charge-full-design-microamp-hours = <5300000>;
+                precharge-current-microamp = <123000>;
+                charge-term-current-microamp = <123000>;
+                charge-full-design-microamp-hours = <9800000>;
                 device-chemistry = "lithium-ion";
                 factory-internal-resistance-micro-ohms = <100000>;
                 factory-internal-resistance-charging-micro-ohms = <400000>;  
@@ -33,60 +33,18 @@
                 ocv-capacity-celsius = <250>;
                 ocv-capacity-table-0 = 
                     <4200000 100>,
-                    <4180000 98>,
-                    <4160000 96>,
-                    <4140000 94>,
-                    <4120000 92>,
-                    <4100000 90>,
-                    <4080000 88>,
-                    <4060000 86>,
-                    <4040000 84>,
-                    <4020000 82>,
-                    <4000000 80>,
-                    <3980000 78>,
-                    <3960000 76>,
-                    <3940000 74>,
-                    <3920000 72>,
-                    <3900000 70>,
-                    <3880000 68>,
-                    <3860000 66>,
-                    <3840000 64>,
-                    <3820000 62>,
-                    <3800000 60>,
-                    <3780000 58>,
-                    <3760000 56>,
-                    <3740000 54>,
-                    <3720000 52>,
-                    <3700000 50>,
-                    <3680000 48>,
-                    <3660000 46>,
-                    <3640000 44>,
-                    <3620000 42>,
-                    <3600000 40>,
-                    <3580000 38>,
-                    <3560000 36>,
-                    <3540000 34>,
-                    <3520000 32>,
-                    <3500000 30>,
-                    <3480000 28>,
-                    <3460000 26>,
-                    <3440000 24>,
-                    <3420000 22>,
-                    <3400000 20>,
-                    <3380000 18>,
-                    <3360000 16>,
-                    <3340000 14>,
-                    <3320000 12>,
-                    <3300000 10>,
-                    <3280000 9>,
-                    <3260000 8>,
-                    <3240000 7>,
-                    <3220000 6>,
-                    <3200000 5>,
-                    <3180000 4>,
-                    <3160000 3>,
-                    <3140000 2>,
-                    <3120000 1>,
+                    <4100000 95>,
+                    <4000000 90>,
+                    <3900000 85>;
+                    <3820000 80>;
+                    <3750000 70>;
+                    <3720000 60>;
+                    <3700000 50>;
+                    <3680000 40>;
+                    <3650000 30>;
+                    <3620000 20>;
+                    <3550000 15>;
+                    <3400000 10>;
                     <3000000 0>;
 
                 /* generic LiIon resistance change over temperature */        
