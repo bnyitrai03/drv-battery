@@ -23,6 +23,7 @@
                 constant-charge-voltage-max-microvolt = <4200000>;
                 precharge-current-microamp = <490000>;
                 charge-full-design-microamp-hours = <9800000>;
+                charge-term-current-microamp = <60000>;
                 device-chemistry = "lithium-ion";
                 factory-internal-resistance-micro-ohms = <14000>;
                 factory-internal-resistance-charging-micro-ohms = <100000>;  
